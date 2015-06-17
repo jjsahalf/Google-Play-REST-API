@@ -4,7 +4,7 @@
 from flask import Flask, jsonify, request, Response
 import urllib2
 import httplib
-from BeautifulSoup import BeautifulSoup
+from bs4 import BeautifulSoup
 
 app = Flask(__name__)
 
